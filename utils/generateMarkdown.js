@@ -62,6 +62,7 @@ const createMarkdown = (data) =>
   ## License
   
   ${data.license}
+  Review License terms at [${data.licenseURL}](${data.licenseURL})
   
   ## Features
   

@@ -93,7 +93,7 @@ function init() {
         const license = generateMarkdown.renderLicense(response)
         const readmeFile = generateMarkdown.createMarkdown(license)
        
-        writeToFile('README.md', readmeFile)
+        writeToFile('SampleREADME.md', readmeFile)
           
     })
 }

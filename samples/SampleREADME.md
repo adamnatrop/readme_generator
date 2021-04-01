@@ -28,7 +28,7 @@
   
   Walter White
   
-  ## Covered License
+  ## License
   
   The MIT License
   

@@ -1,15 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
+// determins which license and badge is choosen by user
 function renderLicense(license){
 
   if(license.license === 'Mozzila Public License 2.0'){
@@ -37,11 +26,9 @@ function renderLicense(license){
 };
 
 
-// TODO: Create a function to generate markdown for README
+// function to generate markdown for README
 const createMarkdown = (data) => 
  
-  // const license = renderLicense(data);
-  
   `
   
   # ${data.title}
@@ -72,7 +59,7 @@ const createMarkdown = (data) =>
   
   ${data.collaborators}
   
-  ## Covered License
+  ## License
   
   ${data.license}
   
@@ -101,7 +88,7 @@ const createMarkdown = (data) =>
   `
 
 
-
+// export modules
 module.exports = {
 
   createMarkdown,
